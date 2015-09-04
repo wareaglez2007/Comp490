@@ -1,1 +1,18 @@
-hi How are you
+hi How are you 
+<?php
+if(isset($_GET['value'])){
+
+$new_name = array();
+
+$new_name['name'] = $_GET['name'];
+$new_name['last_name'] =$_GET['last'];
+
+foreach($new_name as $key=> $data){
+
+var_dump($data);
+
+}
+
+}
+
+?>
